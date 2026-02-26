@@ -1,0 +1,134 @@
+/* 1️⃣ RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2️⃣ BODY */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f3f4f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 3️⃣ HEADER */
+header {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* 4️⃣ NAV */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #38bdf8;
+    margin: 0 15px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* 5️⃣ MAIN LAYOUT */
+main {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+/* 6️⃣ SECTION CARD STYLE */
+section {
+    background: white;
+    padding: 40px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: #1e3a8a;
+}
+
+/* 7️⃣ FORM STYLE */
+form label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+/* Focus Effect */
+form input:focus,
+form textarea:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 8px rgba(37,99,235,0.3);
+    outline: none;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    background: linear-gradient(135deg, #2563eb, #1e3a8a);
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(37,99,235,0.4);
+}
+
+/* 8️⃣ ADDRESS STYLE */
+address {
+    font-style: normal;
+    line-height: 1.8;
+}
+
+/* 9️⃣ FOOTER */
+footer {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+/* 🔟 RESPONSIVE */
+@media (max-width: 768px) {
+    section {
+        padding: 25px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+}

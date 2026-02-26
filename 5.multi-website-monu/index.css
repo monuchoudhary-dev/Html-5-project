@@ -1,0 +1,119 @@
+/* 1️⃣ RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2️⃣ BODY */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f3f4f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 3️⃣ HEADER */
+header {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* 4️⃣ NAVBAR */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #38bdf8;
+    margin: 0 15px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* 5️⃣ MAIN SECTION */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+section {
+    background: white;
+    padding: 50px;
+    max-width: 700px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+/* 6️⃣ HEADINGS */
+section h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #1e3a8a;
+}
+
+/* 7️⃣ PARAGRAPH */
+section p {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* 8️⃣ BUTTON */
+button {
+    margin-top: 15px;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #2563eb, #1e3a8a);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(37,99,235,0.4);
+}
+
+/* 9️⃣ FOOTER */
+footer {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+/* 🔟 RESPONSIVE */
+@media (max-width: 768px) {
+    section {
+        margin: 20px;
+        padding: 30px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+}
